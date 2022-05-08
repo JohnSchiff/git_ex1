@@ -18,11 +18,14 @@ Red
  git add . abc.txt 
 it turns green
 # (5. Append the line `2` to the end of `abc.txt` to change the state of this file in the working tree)
+echo 2 >>abc.txt
+
+
 
 # (6. What is the color of file `abc.txt` in Pycharm's Project view?)
-
+still green
  # (7. What is the command to show changes between the working tree to branch `main`?)
-
+git-diff
  # (8. Why does `git diff --staged` print nothing?)
 
  # (9. Why does `git diff master` print error?)
