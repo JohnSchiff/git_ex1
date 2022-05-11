@@ -1,4 +1,4 @@
-# git_ex1
+**~~# git_ex1
 
 # 1. Copy `07_git_exercises/basics.sh` from our shared repo into your newly created repo, in project root directory, add and commit it. Run it by `./basics.sh`  
  
@@ -11,22 +11,39 @@ echo 1 > abc.txt
 
 # (3. What is the color of file `abc.txt` in Pycharm's Project view?)
 
-Red
+blue
 
 # (4. Add the file to the index &#40;What is the color now?&#41; and commit the changes &#40;it's recommended to use `git status` in between steps&#41;)
 
  git add . abc.txt 
-it turns green
+it turns blue
+
+
+
 # (5. Append the line `2` to the end of `abc.txt` to change the state of this file in the working tree)
 echo 2 >>abc.txt
 
 
 
+
+
 # (6. What is the color of file `abc.txt` in Pycharm's Project view?)
-still green
+back to grey
+
+
+
+
  # (7. What is the command to show changes between the working tree to branch `main`?)
 git-diff
+
+
+
+
+
+
  # (8. Why does `git diff --staged` print nothing?)
+
+
 
  # (9. Why does `git diff master` print error?)
 
@@ -40,4 +57,4 @@ git-diff
 
  # (15. Why does `abc.txt` appear twice in the output of `git status`? )
 
-# (16. **Unstage** the changes in your index and working tree &#40;don't commit the changes&#41;)
+# (16. **Unstage** the changes in your index and working tree &#40;don't commit the changes&#41;)**~~
